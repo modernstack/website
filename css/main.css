@@ -21,7 +21,44 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-image: url('../img/carbon_fibre_big.png');
+    background-repeat: repeat;
 }
+
+#page_wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(11, 143, 205, .7);
+    color: #fff;
+    height: 100%;
+}
+
+.modern-stack-splash{
+    background-image: url('../img/modernstack.png');
+    display: block;
+    height: 131px;
+    width: 292px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -146px;
+}
+
+a.email-icon{
+    display: block;
+    height: 21px;
+    width: 33px;
+    background-image: url('../img/email.png');
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -38,6 +75,8 @@ body {
     background: #b3d4fc;
     text-shadow: none;
 }
+
+
 
 /*
  * A better looking default horizontal rule
