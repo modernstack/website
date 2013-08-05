@@ -36,15 +36,15 @@ body {
 }
 
 .modern-stack-splash{
-    background-image: url('../img/modernstack.png');
+    background-image: url('../img/forward_trail.png');
     display: block;
-    height: 131px;
-    width: 292px;
+    height: 66px;
+    width: 300px;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -65px;
-    margin-left: -146px;
+    margin-top: -33px;
+    margin-left: -150px;
 }
 
 a.email-icon{
